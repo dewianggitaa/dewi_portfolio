@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebar from "./Sidebar";
+
 
 const About = () => {
     return (
         <div className='h-screen flex flex-col items-center bg-green-200 p-16'>
+            <Sidebar />
             <div className='text-xl font-bold'>About Me</div>
             <div>
                 <div>

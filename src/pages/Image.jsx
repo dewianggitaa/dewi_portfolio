@@ -1,0 +1,41 @@
+import wonderland1 from '../assets/wonderland1.jpeg';
+import wonderland2 from '../assets/wonderland2.jpeg';
+import wonderland3 from '../assets/wonderland3.jpeg';
+import wonderland4 from '../assets/wonderland4.jpeg';
+import wonderland5 from '../assets/wonderland5.jpeg';
+import wonderland6 from '../assets/wonderland6.jpeg';
+import wonderland7 from '../assets/wonderland7.jpeg';
+import wonderland8 from '../assets/wonderland8.jpeg';
+import wonderland9 from '../assets/wonderland9.jpeg';
+import flower1 from '../assets/flower1.jpeg';
+import flower2 from '../assets/flower2.jpeg';
+import flower3 from '../assets/flower3.jpeg';
+import flower4 from '../assets/flower4.jpeg';
+import flower5 from '../assets/flower5.jpeg';
+import jobhub1 from '../assets/jobhub1.png';
+import jobhub2 from '../assets/jobhub2.png';
+import jobhub3 from '../assets/jobhub3.png';
+import jobhub4 from '../assets/jobhub4.png';
+import jobhub5 from '../assets/jobhub5.png';
+import jobhub6 from '../assets/jobhub6.png';
+import compress1 from '../assets/compress1.png';
+import compress2 from '../assets/compress2.png';
+import compress3 from '../assets/compress3.png';
+import compress4 from '../assets/compress4.png';
+import compress5 from '../assets/compress5.png';
+import compress6 from '../assets/compress6.png';
+import book1 from '../assets/book1.png';
+import book2 from '../assets/book2.png';
+import book3 from '../assets/book3.png';
+import book4 from '../assets/book4.png';
+import kios1 from '../assets/kios1.png';
+import kios2 from '../assets/kios2.png';
+import kios3 from '../assets/kios3.png';
+import cross1 from '../assets/cross1.png';
+import cross2 from '../assets/cross2.png';
+import cross3 from '../assets/cross3.png';
+import calculator from '../assets/calculator.png';
+
+
+
+export { wonderland1, wonderland2, wonderland3, wonderland4, wonderland5, wonderland6, wonderland7, wonderland8, wonderland9, flower1, flower2, flower3, flower4, flower5, jobhub1, jobhub2, jobhub3, jobhub4, jobhub5, jobhub6, compress1, compress2, compress3, compress4, compress5, compress6, book1, book2, book3, book4, kios1, kios2, kios3, cross1, cross2, cross3, calculator };

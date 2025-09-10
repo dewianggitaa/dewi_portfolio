@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Profile from "./pages/Profile";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Details from "./pages/Details";
 
 const pageVariants = {
   initial: {
@@ -18,7 +19,7 @@ const pageVariants = {
 };
 
 const pageTransition = {
-  duration: 0.8,
+  duration: 0.6,
   ease: "easeInOut",
 };
 
@@ -64,11 +65,22 @@ function AnimatedRoutes() {
               variants={pageVariants}
               initial="initial"
               animate="animate"
-              exit="exitToCircle"
               transition={pageTransition}
               className="w-full h-full fixed top-0 left-0 bg-white"
             >
               <Projects />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/details/:id"
+          element={
+            <motion.div
+              variants={pageVariants}
+              transition={pageTransition}
+              className="w-full h-full fixed top-0 left-0 bg-white"
+            >
+              <Details />
             </motion.div>
           }
         />
